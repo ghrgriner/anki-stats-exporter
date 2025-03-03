@@ -1,0 +1,8 @@
+__pycache__
+pylintrc
+# zip file for upload to Ankiweb sharing. Should be uploaded as binary with
+# each relase but not stored in repository. Per Ankiweb documentation:
+# cd myaddon && zip -r ../myaddon.ankiaddon *
+*.ankiaddon
+# This subdirectory is used to build the .ankiaddon file.
+/anki_stats_exporter

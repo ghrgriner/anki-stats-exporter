@@ -1,0 +1,49 @@
+{
+    "card_export__columns": [
+        "question",
+        "answer",
+        "tags",
+        "c_type",
+        "c_due",
+        "c_odue",
+        "col_TodayDaysElapsed",
+        "c_odid",
+        "c_queue",
+        "c_ivl",
+        "c_Ease",
+        "c_factor",
+        "c_CardType",
+        "c_NoteType",
+        "c_Deck",
+        "c_Data",
+        "c_nid",
+        "c_id",
+        "c_stability",
+        "c_difficulty",
+        "csd_fsrs_retrievability",
+        "col_RolloverHour",
+        "revlog_entries"
+    ],
+    "card_export_column__field_a": {
+        "Basic": "Front",
+        "Cloze": "Text",
+        "Cloze (overlapping)": "Original"
+    },
+    "card_export_column__field_b": {
+        "Basic": "Back",
+        "Cloze": "Extra",
+        "Cloze (overlapping)": "Remarks"
+    },
+    "card_export_column__field_c": {
+        "Cloze (overlapping)": "Sources"
+    },
+    "card_export_maxLength": 400,
+    "format_csv_dialect": "excel",
+    "format_csv_delimiter": "\t",
+    "format_csv_quotechar": "",
+    "format_csv_quoting": "",
+    "note_export_include_note_id": true,
+    "note_export_include_modification_time": true,
+    "note_export_include_tags": true,
+    "row_on_top_has_column_names": false
+}
