@@ -1,0 +1,38 @@
+print(vars(browser))
+{'mw': <aqt.main.AnkiQt object at 0x7fe4b84710d0>,
+'col': <anki.collection.Collection object at 0x7fe4af4aea90>,
+'lastFilter': '',
+'focusTo': None,
+'_previewer': None,
+'_card_info': <aqt.browser.card_info.BrowserCardInfo object at 0x7fe497eb43a0>,
+'_closeEventHasCleanedUp': False, 'auto_layout': True, 'aspect_ratio': 1.9853862212943632,
+'form': <_aqt.forms.browser_qt6.Ui_Dialog object at 0x7fe497eb4370>,
+'card': <anki.cards.Card object at 0x7fe4ae5cdaf0>,
+'current_card': <anki.cards.Card object at 0x7fe4ae5cd6a0>,
+'sidebarDockWidget': <PyQt6.QtWidgets.QDockWidget object at 0x7fe4ae913af0>,
+'sidebar': <aqt.browser.sidebar.tree.SidebarTreeView object at 0x7fe4ae913b80>,
+'sidebarTree': <aqt.browser.sidebar.tree.SidebarTreeView object at 0x7fe4ae913b80>,
+'table': <aqt.browser.table.table.Table object at 0x7fe4ae91d7f0>,
+'_switch': <aqt.switch.Switch object at 0x7fe4ae922670>,
+'pgUpCut': <PyQt6.QtGui.QShortcut object at 0x7fe4ae922f70>,
+'pgDownCut': <PyQt6.QtGui.QShortcut object at 0x7fe4ae5c3040>,
+'editor': <aqt.editor.Editor object at 0x7fe4ae5c09d0>,
+'_editor_state_key': 'editor',
+'model': <aqt.browser.browser.MockModel object at 0x7fe4ae5c0ca0>,
+'_lastSearchTxt': 'deck:current',
+'singleCard': True}
+
+print(vars(browser.table))
+{'browser': <aqt.browser.browser.Browser object at 0x7fba2caa1f70>,
+ 'col': <anki.collection.Collection object at 0x7fba2ca9da00>,
+ '_state': <aqt.browser.table.state.CardState object at 0x7fba200b2f40>,,
+ '_model': <aqt.browser.table.model.DataModel object at 0x7fba200a9e50>,
+ '_view': <PyQt6.QtWidgets.QTableView object at 0x7fba2008c310>,
+ '_len_selection': 2,
+ '_selected_rows': [<PyQt6.QtCore.QModelIndex object at 0x7fba23f4e040>,<PyQt6.QtCore.QModelIndex object at 0x7fba16088900>],
+ '_current_item': None,
+ '_selected_items': []}
+
+print(vars(browser.model))
+{'browser': <aqt.browser.browser.Browser object at 0x7fba2caa1f70>}
+

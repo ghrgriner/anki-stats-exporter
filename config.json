@@ -45,5 +45,5 @@
     "note_export_include_note_id": true,
     "note_export_include_modification_time": true,
     "note_export_include_tags": true,
-    "row_on_top_has_column_names": false
+    "row_on_top_has_column_names": true
 }

@@ -99,7 +99,6 @@ def info_for_cids_to_list_of_lists(cids, keephtml):
                 "export. Aborting ...")
         return
     rows = []
-    rows.append(columns_to_export)
     for c in cids:
         rows.append(make_row_list_for_card(c, columns_to_export, keephtml))
     return rows
