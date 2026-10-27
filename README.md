@@ -11,6 +11,17 @@ This is a modification of add-on [export cards/notes from browser with
 metadata to csv or xlsx](https://ankiweb.net/shared/info/1967530655) (updated:
 2024-03-28) (the 'original add-on').
 
+Note that we currently don't use this repository. Instead, we use the
+programs in our [anki-stats](https://github.com/ghrgriner/anki-stats)
+repository to extract data directly from the Anki databases. However, this
+repository was useful in developing the latter so we will keep it around for
+that reason and for the benefit of users who aren't comfortable accessing
+the database directly, as the latter method makes the code a bit more fragile
+and more importantly
+[can cause problems when writing](https://github.com/ghrgriner/anki-stats/wiki/Alternate-Data-Access-Methods).
+The latter repository may have features not in this repository as we don't
+plan to update this repository going forward.
+
 # Functionality
 The add-on adds three menu items to the card/note browser in Anki. The user
 selects cards or notes in the browser and then can select one of:
